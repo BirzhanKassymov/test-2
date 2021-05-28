@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/style.css">
+    <title>Document</title>
+</head>
+<body class="antialiased min-h-screen">
+
+<div class="overflow-x-hidden">
+
+    <header class="h-20 bg-black">
+
+        <div class="flex items-center justify-between px-4 lg:px-0 mx-auto h-full sm:max-w-screen-lg 2xl:max-w-screen-2xl">
+
+            <div>
+                <a href="#" class="flex items-center text-white text-xl font-semibold">
+
+                    <svg class="mr-4 fill-current w-6 h-6">
+                        <use href="/img/icons.svg#icon"></use>
+                    </svg>
+
+                    <span class="hidden sm:inline">ImageStock</span>
+                </a>
+            </div>
+
+            <div class="flex items-center space-x-6 text-white text-lg font-light">
+
+                <a href="#" class="flex items-center">
+
+                    <svg class="sm:mr-3 fill-current w-7 h-7">
+                        <use href="/img/icons.svg#search"></use>
+                    </svg>
+
+                    <span class="hidden sm:inline">Поиск</span>
+
+                </a>
+
+                <a href="#" class="flex items-center">
+                    <svg class="sm:mr-3 fill-current w-5 h-5">
+                        <use href="/img/icons.svg#like"></use>
+                    </svg>
+
+                    <span class="hidden sm:inline">Избранное</span>
+
+                </a>
+
+                <a href="#" class="flex items-center">
+
+                    <svg class="sm:mr-3 fill-current w-5 h-5">
+                        <use href="/img/icons.svg#time"></use>
+                    </svg>
+
+                    <span class="hidden sm:inline">История поиска</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="welcome pt-9 sm:py-9">
+
+        <div class="mx-auto px-4 lg:px-0 sm:max-w-screen-lg 2xl:max-w-screen-2xl">
+
+            <div class="flex items-center justify-between">
+
+                <div class="flex items-center space-x-3">
+
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="img/user.svg" alt="user">
+                    </div>
+
+                    <div class="">
+                        <div class="sm:text-white text-lg sm:text-2xl">Vadim Sadovski</div>
+                        <div class="text-gray-300 sm:text-white text-sm sm:text-lg">@vadimsadovski</div>
+                    </div>
+
+                </div>
+
+                <div class="flex items-center space-x-4">
+                    <button class="py-3 px-3 bg-white rounded-md">
+                        <svg class="fill-current text-gray-400 w-6 h-6">
+                            <use href="img/icons.svg#like"></use>
+                        </svg>
+                    </button>
+
+                    <button class="flex items-center py-3 px-3 bg-green-500 rounded-md text-white">
+
+                        <svg class="fill-current w-6 h-6">
+                            <use href="img/icons.svg#download"></use>
+                        </svg>
+
+                        <span class="hidden sm:inline">Download</span>
+                    </button>
+
+
+                </div>
+            </div>
+
+            <div class="relative">
+                <img src="img/welcome.png" alt="1" class="">
+
+                <button class="lg:hidden absolute bottom-10 right-10 focus:outline-none">
+                    <svg class="fill-current w-5 h-5 text-white">
+                        <use href="img/icons.svg#size"></use>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="">
+
+                <div class="sm:text-center text-lg sm:text-xl sm:text-white">Похожии теги</div>
+
+                <div class="flex items-center sm:justify-center flex-wrap mt-6 gap-4">
+
+                    <button class="py-1 px-2 text-lg text-gray-500 bg-gray-200 sm:bg-white rounded-lg focus:outline-none">
+                        Girl
+                    </button>
+
+                    <button class="py-1 px-2 text-lg text-gray-500 bg-gray-200 sm:bg-white rounded-lg focus:outline-none">
+                        Woman
+                    </button>
+
+                    <button class="py-1 px-2 text-lg text-gray-500 bg-gray-200 sm:bg-white rounded-lg focus:outline-none">
+                        Mood
+                    </button>
+
+                    <button class="py-1 px-2 text-lg text-gray-500 bg-gray-200 sm:bg-white rounded-lg focus:outline-none">
+                        People
+                    </button>
+
+                    <button class="py-1 px-2 text-lg text-gray-500 bg-gray-200 sm:bg-white rounded-lg focus:outline-none">
+                        Free Pictures
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="mt-8 sm:mt-16 pb-10">
+
+        <div class="flex flex-col lg:flex-row mx-auto px-4 lg:px-0 sm:max-w-screen-lg 2xl:max-w-screen-2xl">
+
+            <div>
+                <div class="flex items-center justify-between">
+                    <h1 class="text-2xl">Похожие фотографии</h1>
+
+                    <div class="hidden lg:block">
+                        <a href="#" class="text-sm text-gray-400 underline">Show more</a>
+                    </div>
+                </div>
+
+                <div class="grid-parent mt-4">
+
+                    <div class="grid grid-cols-1">
+                        <div class="">
+                            <img src="img/1.jpg" alt="1">
+                        </div>
+                        <div class="">
+                            <img src="img/4.jpg" alt="">
+                        </div>
+                        <div class=" ">
+                            <img src="img/7.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/10.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/13.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/16.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/19.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1">
+                        <div class="">
+                            <img src="img/2.jpg" alt="1">
+                        </div>
+                        <div class="">
+                            <img src="img/5.jpg" alt="">
+                        </div>
+                        <div class=" ">
+                            <img src="img/8.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/11.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/14.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/17.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/18.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1">
+                        <div class="">
+                            <img src="img/3.jpg" alt="1">
+                        </div>
+                        <div class="">
+                            <img src="img/6.jpg" alt="">
+                        </div>
+                        <div class=" ">
+                            <img src="img/9.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/12.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/15.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/18.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <img src="img/12.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="self-end ml-4">
+                <button class="p-2 rounded-lg shadow-lg">
+                    <svg class="fill-current w-6 h-6 text-gray-500">
+                        <use href="img/icons.svg#arrow-up"></use>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+</html>
